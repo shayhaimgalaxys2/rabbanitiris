@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#171717" >
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/videoBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_lightblue2"
+                android:drawableTop="@drawable/documentary64"
+                android:text="Video"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/audioBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_lightblue2"
+                android:drawableTop="@drawable/radio164"
+                android:text="Audio"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/facebookBtn"
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_lightblue2"
+                android:drawableTop="@drawable/safari64"
+                android:text="My Site"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/aboutusBtn"
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_weight="50"
+                android:background="@drawable/btn_lightblue2"
+                android:drawableTop="@drawable/help64"
+                android:text="About Us"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/donateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/donate1"
+            />
+       		
+    </LinearLayout>
+
+</ScrollView>

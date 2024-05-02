@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171717"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_marginTop="20dp"
+     >
+
+    <Button
+        android:id="@+id/hebrewBtn"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="2.5dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="50"
+        android:background="@drawable/btn_lightblue2"
+        android:drawableTop="@drawable/isrealflag"
+        android:text="Hebrew"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/englishBtn"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="2.5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="50"
+        android:background="@drawable/btn_lightblue2"
+        android:drawableTop="@drawable/americanflag"
+        android:text="English"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+</LinearLayout>

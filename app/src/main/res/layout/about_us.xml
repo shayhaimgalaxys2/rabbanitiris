@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Rabbanit Iris Odani Elyashiv was born and raised in Ramat Gan, Israel. She got her academic education at Bar Ilan University where she got her B.A. her M.A. and where she made her P.H.D Studies.\nShe teaches Torah classes to women in Brooklyn and Queens since 2005, and is currently teaching the Sefer Tomer Dvorah, authored by the Ramak.\nHafrashat Challah with proper Kavanot,  Seudat Amenim, and Tikun Hamidot, are a major part of her teaching program. Her goal is for women from all backgrounds and level of observance to gather merits and hasten the coming of Moshiach BB Amen.\nRabbanit Elyashiv extensive Torah intellect, charismatic personality, and powerful presentations, make her an exceptional teacher and leader. She is honored, and admired by all her students, who look forward to her words of Torah, her guidance, and Chizuk.\n
+        "
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>
